@@ -1,0 +1,25 @@
+*** Settings ***
+Documentation    resources folder
+Library          QForce
+Suite Setup      OpenBrowser        about:blank    chrome
+Suite Teardown   CloseAllBrowsers
+
+*** Variables ***
+${Login_url}       https://login.salesforce.com
+${Username}        swatikanwar912@agentforce.com
+${Password}        Swati@912
+
+
+
+
+
+*** Keywords ***
+Salesforce login
+    [Documentation]        Salesforce login
+    [Tags]                 login
+    GoTo                   ${Login_url}        chrome
+    VerifyText             Username        
+    TypeText               Username         ${Username}
+    VerifyText             Password
+    TypeText               Password         ${Password}
+    
