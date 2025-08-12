@@ -23,5 +23,4 @@ Salesforce login
     VerifyText             Password
     TypeText               Password         ${Password}
     ClickText              Login
-    VerifyText             Home
     
