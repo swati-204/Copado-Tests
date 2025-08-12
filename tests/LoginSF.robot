@@ -10,3 +10,8 @@ Suite Teardown       CloseAllBrowsers
 Navigate to Service app and Create case 
     [Documentation]            Navigate to Service and create a case
     [Tags]                     testgen
+    Salesforce login
+    LaunchApp                  Service
+
+
+Case Creation
