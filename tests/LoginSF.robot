@@ -2,7 +2,7 @@
 Documentation        Salesforce Regression suite 
 Library              QForce
 Resource             ../resources/common.resource
-Suite Setup          OpenBrowser        about:blank            chrome
+Suite Setup          OpenBrowser            about:blank            chrome
 Suite Teardown       CloseAllBrowsers
 
 
@@ -12,6 +12,6 @@ Navigate to Service app and Create case
     [Tags]                     testgen
     Salesforce login
     LaunchApp                  Service
-
+    
 
 Case Creation
