@@ -18,6 +18,7 @@ Navigate to Service app and Create case
     ClickText                  sam adams
     PickList                   Case origin        Phone
     ClickText                  Save
+    
 
     
     
