@@ -15,9 +15,9 @@ Navigate to Service app and Create case
     ClickText                  Case
     ClickText                  New
     ClickText                  Contact Name
-    ClickText                  Sam Adams
+    ClickText                  sam adams
     PickList                   Case origin        Phone
-    
+    ClickText                  Save
 
     
     
