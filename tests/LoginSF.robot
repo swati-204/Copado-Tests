@@ -12,6 +12,13 @@ Navigate to Service app and Create case
     [Tags]                     testgen
     Salesforce login
     LaunchApp                  Service
+    ClickText                  Case
+    ClickText                  New
+    ClickText                  Contact Name
+    ClickText                  Sam Adams
+    PickList                   Case origin        Phone
+    
+
     
     
 
