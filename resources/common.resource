@@ -17,7 +17,7 @@ ${Password}        Swati@912
 Salesforce login
     [Documentation]        Salesforce login
     [Tags]                 login
-    GoTo                   ${Login_url}        chrome
+    GoTo                   ${Login_url}       
     VerifyText             Username        
     TypeText               Username         ${Username}
     VerifyText             Password
