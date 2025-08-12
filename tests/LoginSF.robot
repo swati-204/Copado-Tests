@@ -1,6 +1,7 @@
 *** Settings ***
 Documentation        Salesforce Regression suite 
 Library              QForce
+Resource             ../resources/common.resource
 Suite Setup          OpenBrowser        about:blank            chrome
 Suite Teardown       CloseAllBrowsers
 
