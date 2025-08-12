@@ -22,5 +22,5 @@ Salesforce login
     TypeText               Username         ${Username}
     VerifyText             Password
     TypeText               Password         ${Password}
-    ClickText              Login
+    ClickText              Log In
     
