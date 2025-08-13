@@ -12,6 +12,37 @@ Lead Creation and Conversion
     [Tags]                     Lead
     Salesforce login
     LaunchApp                  Sales
-    ClickText                  Lead
-    ClickText                  New
-    
+    ClickText    Leads
+    ClickText    New
+    UseModal    On
+    PickList    Salutation    Mr.
+    TypeText    Last Name    copado
+    TypeText    *Company    crt
+    PickList    Lead Source    Other
+    PickList    *Lead Status    Working - Contacted
+    ClickText    Save    partial_match=False
+    UseModal    Off
+    ClickText    Details
+    VerifyText    Mr. copado
+    ClickText    Show more actions
+    ClickText    Convert
+    UseModal    On
+    ClickText    Convert    partial_match=False
+    UseModal    Off
+    UseModal    On
+    UseModal    Off
+    ClickText    crt-
+    ClickText    View All    anchor=Upcoming & Overdue
+    SwitchWindow    NEW
+    SwitchWindow    2
+    CloseWindow
+    ClickText    Details
+    ClickText    Details
+    VerifyText    crt-
+    ClickText    Show actions for Quotes
+    ClickText    New Quote
+    UseModal    On
+    VerifyText    NameComplete
+    TypeText    *Quote Name    copado quote
+    ClickText    Save
+    UseModal    Off
