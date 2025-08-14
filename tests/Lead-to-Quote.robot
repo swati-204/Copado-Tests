@@ -29,8 +29,6 @@ Lead Creation and Conversion
     UseModal    On
     ClickText    Convert    partial_match=False
     UseModal    Off
-    UseModal    On
-    UseModal    Off
     ClickText    crt-
     ClickText    View All    anchor=Upcoming & Overdue
     SwitchWindow    NEW
