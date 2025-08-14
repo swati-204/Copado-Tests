@@ -30,6 +30,8 @@ Lead Creation and Conversion
    # ClickText    View All    anchor=Upcoming & Overdue
     ClickText    Details
     VerifyText    crt-
+
+Quote Creation
     ClickText         Quotes
     ClickText    New Quote
     UseModal    On
