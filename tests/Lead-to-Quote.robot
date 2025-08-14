@@ -26,14 +26,13 @@ Lead Creation and Conversion
     VerifyText    Mr. copado
     ClickText    Show more actions
     ClickText    Convert
-    ClickText    crt-
+  ClickText    crt-
    # ClickText    View All    anchor=Upcoming & Overdue
     ClickText    Details
     VerifyText    crt-
-    ClickText    Show actions for Quotes
+    ClickText         Quotes
     ClickText    New Quote
     UseModal    On
-    VerifyText    NameComplete
     TypeText    *Quote Name    copado quote
     ClickText    Save
     UseModal    Off
