@@ -29,7 +29,6 @@ Lead Creation and Conversion
     ClickText    crt-
    # ClickText    View All    anchor=Upcoming & Overdue
     ClickText    Details
-    ClickText    Details
     VerifyText    crt-
     ClickText    Show actions for Quotes
     ClickText    New Quote
