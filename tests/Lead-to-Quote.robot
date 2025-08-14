@@ -31,9 +31,6 @@ Lead Creation and Conversion
     UseModal    Off
     ClickText    crt-
     ClickText    View All    anchor=Upcoming & Overdue
-    SwitchWindow    NEW
-    SwitchWindow    2
-    CloseWindow
     ClickText    Details
     ClickText    Details
     VerifyText    crt-
@@ -44,3 +41,4 @@ Lead Creation and Conversion
     TypeText    *Quote Name    copado quote
     ClickText    Save
     UseModal    Off
+
