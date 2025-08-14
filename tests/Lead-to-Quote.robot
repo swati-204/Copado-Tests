@@ -26,9 +26,6 @@ Lead Creation and Conversion
     VerifyText    Mr. copado
     ClickText    Show more actions
     ClickText    Convert
-    UseModal    On
-    ClickText    Convert    partial_match=False
-    UseModal    Off
     ClickText    crt-
    # ClickText    View All    anchor=Upcoming & Overdue
     ClickText    Details
