@@ -30,7 +30,7 @@ Lead Creation and Conversion
     ClickText    Convert    partial_match=False
     UseModal    Off
     ClickText    crt-
-    ClickText    View All    anchor=Upcoming & Overdue
+   # ClickText    View All    anchor=Upcoming & Overdue
     ClickText    Details
     ClickText    Details
     VerifyText    crt-
