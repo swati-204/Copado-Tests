@@ -11,9 +11,22 @@ Update Opportunity changes and verify repoorts
     Salesforce login
     LaunchApp        Sales
     ClickText        Opportunities
-    VerifyText       Stage
-    ClickText        Stage
-    ClickText        Closed Won
-    ClickText        Save
+    ClickText    New
+    UseModal    On
+    TypeText    *Opportunity Name    New opp
+    ClickText    Select a date for Close Date
+    ClickText    20
+    PickList    *Stage    Closed Won
+    ClickText    Save    partial_match=False
+    UseModal    Off
+    VerifyText    Opportunity\nNew opp
+    
+   #Reports Verification 
+    ClickText    Reports
+    ClickText    All Reports
+    TypeText    Search all reports...    new
+    ClickText    Opportunities Report
+    VerifyText    New opp
 
+    
 
