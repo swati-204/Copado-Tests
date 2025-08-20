@@ -11,9 +11,9 @@ Update Opportunity changes and verify repoorts
     Salesforce login
     LaunchApp        Sales
     ClickText        Opportunities
-    ClickText    New
+    ClickText    New            anchor= Assign label
     UseModal    On
-    TypeText    *Opportunity Name    New opp
+    TypeText    *Opportunity Name    Testt opp
     ClickText    Select a date for Close Date
     ClickText    20
     PickList    *Stage    Closed Won
