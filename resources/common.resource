@@ -6,8 +6,8 @@ Suite Teardown   CloseAllBrowsers
 
 *** Variables ***
 ${Login_url}       https://login.salesforce.com
-${Username}        swatikanwar912@agentforce.com
-${Password}        Force@912
+${Username}        swati@demo.com
+${Password}        Radheeeeeeee@112
 
 
 
