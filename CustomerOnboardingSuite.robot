@@ -31,6 +31,6 @@ Account Creation
     ClickText              Accounts
     ClickText              New    anchor=Import
     TypeText               Account Name         Copado Account 
-    DropDown               Industry             Apparel
+    PickList               Industry             Apparel
     ClickText              Save
 
