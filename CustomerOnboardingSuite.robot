@@ -10,5 +10,4 @@ Suite Teardown        CloseAllBrowsers
 
 *** Test Cases ***
 User Journey 
-    [Documentation]        Customer Onboarding Flow in Salesforce:
-                           Login to Salesforce (using SSO/MFA ready flow).
+    [Documentation]        Customer Onboarding Flow in Salesforce                       Login to Salesforce (using SSO/MFA ready flow).
