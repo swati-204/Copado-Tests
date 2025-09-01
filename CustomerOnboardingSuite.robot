@@ -50,7 +50,7 @@ Opportunity creation
     ClickText          New    anchor=Opportunities
     TypeText           Opportunity Name    Copado Opportunity
     ClickText          Close Date 
-    ClickText          05/09/2025
+    ClickText          09/05/2025
     PickList           Stage               Closed Won
     ClickText          Save           
 
