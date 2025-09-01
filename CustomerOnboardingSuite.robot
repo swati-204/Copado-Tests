@@ -52,5 +52,8 @@ Opportunity creation
     ClickText          Close Date 
     ClickText    10
     PickList           Stage               Closed Won
-    ClickText          Save           
+    ClickText          Save    
+    ClickText          Copado Opportunity
+    VerifyText         Copado opportunity 
+       
 
