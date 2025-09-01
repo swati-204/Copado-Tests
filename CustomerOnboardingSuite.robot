@@ -48,6 +48,6 @@ Opportunity creation
     [Documentation]    Create and close the opportunity
     ClickText          Related
     ClickText          Opportunities
-    ClickText          New    
+    ClickText          New    anchor=Assign Label
     TypeText           Opportunity Name    Copado Opportunity
 
