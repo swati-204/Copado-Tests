@@ -34,3 +34,11 @@ Account Creation
     PickList               Industry             Apparel
     ClickText              Save
 
+Contact association
+    [Documentation]        Associate a contact to the Account record 
+    VerifyText             Related
+    ClickText              Contacts
+    ClickText              New            anchor=Contacts
+    TypeText               Name           LastName=Copado Conntact
+    ClickText              Save
+
