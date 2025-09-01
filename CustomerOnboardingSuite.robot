@@ -51,7 +51,6 @@ Opportunity creation
     TypeText           Opportunity Name    Copado Opportunity
     ClickText          Close Date 
     ClickText    10
-    ClickText          05
     PickList           Stage               Closed Won
     ClickText          Save           
 
