@@ -30,3 +30,7 @@ Account Creation
     LaunchApp              Sales
     ClickText              Accounts
     ClickText              New    anchor=Import
+    TypeText               Account Name         Copado Account 
+    DropDown               Industry             Channel-Account
+    ClickText              Save
+                
