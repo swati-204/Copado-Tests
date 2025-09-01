@@ -41,4 +41,13 @@ Contact association
     ClickText              New            anchor=Contacts
     TypeText          *Last Name        Copado Contact
     ClickText              Save
+    ClickText             Details
+    VerifyText            Copado
+    
+Opportunity creation
+    [Documentation]    Create and close the opportunity
+    ClickText          Related
+    ClickText          Opportunities
+    ClickText          New    
+    TypeText           Opportunity Name    Copado Opportunity
 
