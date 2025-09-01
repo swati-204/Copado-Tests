@@ -46,8 +46,7 @@ Contact association
     
 Opportunity creation
     [Documentation]    Create and close the opportunity
-    ClickText          Related
-    ClickText          Opportunities
-    ClickText          New    anchor=Assign Label
+    ClickText          Related       
+    ClickText          New    anchor=Opportunities
     TypeText           Opportunity Name    Copado Opportunity
 
