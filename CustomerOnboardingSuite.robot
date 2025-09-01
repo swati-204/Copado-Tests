@@ -39,6 +39,6 @@ Contact association
     VerifyText             Related
     ClickText              Contacts
     ClickText              New            anchor=Contacts
-    TypeText               Name           LastName=Copado Conntact
+    TypeText          *Last Name        Copado Contact
     ClickText              Save
 
