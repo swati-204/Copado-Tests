@@ -29,5 +29,4 @@ Account Creation
     [Documentation]        Navigate to Accounts and Create a new account record 
     LaunchApp              Sales
     ClickText              Accounts
-    ClickText              New
-    
+    ClickText              New    anchor=Import
